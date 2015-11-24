@@ -9,17 +9,40 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var logoImg: UIImageView!;
+    @IBOutlet weak var playBtn: UIButton!;
+    @IBOutlet weak var lblMultiplier: UITextField!;
+    
+    @IBOutlet weak var fishImg: UIButton!;
+    @IBOutlet weak var lblResult: UILabel!
+    var multiplier = 0;
+    var result = 0;
+    @IBAction func oushFish(sender: AnyObject) {
+        if(result<40){
+            result = result + multiplier;
+            lblResult.text = "\(result) + \(multiplier)= \(result+multiplier)"
+        } else {
+            fishImg.hidden = true;
+            lblResult.hidden = true;
+            
+            logoImg.hidden = false;
+            playBtn.hidden = false;
+            lblMultiplier.hidden = false;
+        }
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func playPush(sender: AnyObject) {
+        if lblMultiplier.text != "" && lblMultiplier.text != nil {
+            logoImg.hidden = true;
+            playBtn.hidden = true;
+            lblMultiplier.hidden = true;
+            
+            fishImg.hidden = false;
+            lblResult.hidden = false;
+            multiplier = Int(lblMultiplier.text!)!;
+            lblResult.text = "0 + \(multiplier) = \(multiplier) ";
+           
+        }
     }
-
-
 }
 
