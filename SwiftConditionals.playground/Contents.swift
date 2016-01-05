@@ -104,5 +104,68 @@ func divide (num1: Double, num2: Double) -> Double{
 }
 
 
+//warmup
+func isEven(num1: Int) -> Bool {
+    if num1%2==0 {
+        return true
+    } else {
+        return false;
+    }
+}
+
+print(isEven(3));
+
+//arryas
+
+var countries = [String]();
+var topColors = [String](count: 20, repeatedValue: "cur");
+
+var favCars = [String]();
+favCars.append("Dacia");
+favCars.insert("Renault", atIndex: 1);
+
+print(favCars);
+
+
+
+//loops
+
+var ages = [23, 25, 41, 51, 62];
+
+for var x = 0; x<ages.count; x++ {
+    var age = ages[x];
+    
+    if age>=50 {
+        print("You are 50 years old")
+    }
+}
+
+//arrays exercise(36):
+var oddNumbers = [Int]();
+for var x=1; x<=100; x++ {
+    if !isEven(x){
+        oddNumbers.append(x);
+    }
+}
+
+print(oddNumbers);
+
+var sums=[Int]();
+for index in 0...oddNumbers.count-1 {
+    oddNumbers[index]+=5;
+}
+
+var i=0;
+while (i<oddNumbers.count) {
+    print("The sum is:+ \(oddNumbers[i])");
+    i++;
+}
+
+
+
+
+
+
+
 
 
