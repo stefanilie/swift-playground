@@ -161,9 +161,68 @@ while (i<oddNumbers.count) {
     i++;
 }
 
+//After callculator app
+for var i = 1; i<=200; i++ {
+    if(i%3==0){
+        print("Boo");
+    } else if (i%5==0){
+        print("Ya");
+    } else if (i%3==0 && i%5==0){
+        print("BooYa");
+    }
+}
+
+//Dictionaries
+
+var dex: [String: String] = ["krill": "any of the small crustaceans", "fire": "a burning mass of material"];
+var altDex: [Int: String] = [44: "I hate this number"];
+
+if let krill = dex["krill"] {
+    print(krill);
+}
+
+//dex = [:] ca sa golim dict
+
+if dex.isEmpty {
+    print("ciorba");
+}
+
+
+for (word, definition) in dex {
+    print("\(word): \(definition)")
+}
 
 
 
+//OOP
+class Vehicle {
+    private var _engine = "4.0 L";
+    var color = "Silver";
+    var odometer = 0;
+    
+    init(engine: String, color: String){
+        self.engine = engine;
+        self.color = color;
+    }
+    
+    var engine: String{
+        get {
+            return _engine;
+        }
+        set{
+            self._engine = engine;
+        }
+    }
+    
+    init(){
+        print("empty init");
+    }
+    func enterMiles(miles: Int) {
+        odometer += miles;
+    }
+}
+
+var srx = Vehicle(engine: "2.3L", color: "Royal Blue");
 
 
 
