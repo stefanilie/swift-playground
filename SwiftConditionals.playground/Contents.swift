@@ -220,10 +220,25 @@ class Vehicle {
     func enterMiles(miles: Int) {
         odometer += miles;
     }
+    
+    func doSmth() -> String{
+        return "somethig";
+    }
 }
 
 var srx = Vehicle(engine: "2.3L", color: "Royal Blue");
 
+class Sedan : Vehicle {
+    var make = "SAAB";
+    
+    convenience init(make: String, engine: String, color: String) {
+        self.init(engine: engine, color: color);
+        self.make = make;
+    }
+    override func doSmth() -> String {
+        return "something else";
+    }
+}
 
 
 
