@@ -24,8 +24,67 @@ if true == false || true == true {
     print("WTF")
 }
 
+
+//-----------------------------Exercises Swift 3 functions
+
+
+func add(par1: Double, par2: Double) -> Double{
+    return par1+par2;
+}
+
+func substract(par1: Int, par2: Int) -> Int{
+    return par1-par2;
+}
+
 //Logical operators
 let allowedEntry = false
+//let inseamna ca e constanta valoarea
+
 if !allowedEntry {
-    
+        print("access denied")
 }
+
+let enteredDoorCode = true;
+let passedRetinaScan = false;
+let suntFlorinPiersic = false;
+
+
+if enteredDoorCode && passedRetinaScan || !suntFlorinPiersic {
+     print("welcome")
+}
+
+
+//--------------------------Arrays
+
+var employeeSalaries : [Double] = [4500.0, 540000.0, 1000000.0, 200000.0]
+
+employeeSalaries.append(34000.0)
+print(employeeSalaries.count);
+employeeSalaries.remove(at: 1);
+print(employeeSalaries.count)
+
+var students = [String]()
+print(students.count)
+students.append("john")
+students.append("jose")
+students.append("Jingle")
+
+students.remove(at: 2);
+
+
+//----------------Loops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
