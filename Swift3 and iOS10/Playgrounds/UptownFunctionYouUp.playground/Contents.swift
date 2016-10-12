@@ -74,9 +74,23 @@ students.remove(at: 2);
 
 //----------------Loops
 
+var index = 0;
+repeat{
+    employeeSalaries[index] = employeeSalaries[index] + (employeeSalaries[index]*0.10);
+    index += 1;
+}while(index<employeeSalaries.count)
 
+for i in 0..<employeeSalaries.count {
+    employeeSalaries[i] = employeeSalaries[i] + (employeeSalaries[i]*0.10);
+}
 
+for ex in employeeSalaries{
+    print("Salary: \(ex)");
+}
 
+for z in 1..<5{
+    print("Index of Z: \(z)");
+}
 
 
 
