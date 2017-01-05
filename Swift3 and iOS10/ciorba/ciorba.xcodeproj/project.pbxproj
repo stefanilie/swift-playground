@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C43076EA4C45ABE827CBAA /* Pods_ciorba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492D0B33C1D6DC10BF7D5D24 /* Pods_ciorba.framework */; };
+		65DE854D1E1EE8DD0059AFA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE854C1E1EE8DD0059AFA5 /* AppDelegate.swift */; };
+		65DE854F1E1EE8DD0059AFA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE854E1E1EE8DD0059AFA5 /* ViewController.swift */; };
+		65DE85521E1EE8DD0059AFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DE85501E1EE8DD0059AFA5 /* Main.storyboard */; };
+		65DE85541E1EE8DD0059AFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DE85531E1EE8DD0059AFA5 /* Assets.xcassets */; };
+		65DE85571E1EE8DD0059AFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DE85551E1EE8DD0059AFA5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		492D0B33C1D6DC10BF7D5D24 /* Pods_ciorba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ciorba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE85491E1EE8DD0059AFA5 /* ciorba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ciorba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE854C1E1EE8DD0059AFA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65DE854E1E1EE8DD0059AFA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DE85511E1EE8DD0059AFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65DE85531E1EE8DD0059AFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65DE85561E1EE8DD0059AFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65DE85581E1EE8DD0059AFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AD4F845B15F7797B7FEC0F /* Pods-ciorba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ciorba.release.xcconfig"; path = "Pods/Target Support Files/Pods-ciorba/Pods-ciorba.release.xcconfig"; sourceTree = "<group>"; };
+		E44527BD273ACEE5646B6AAF /* Pods-ciorba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ciorba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ciorba/Pods-ciorba.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DE85461E1EE8DD0059AFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C43076EA4C45ABE827CBAA /* Pods_ciorba.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032C369EAE80E398B57F3D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E44527BD273ACEE5646B6AAF /* Pods-ciorba.debug.xcconfig */,
+				E0AD4F845B15F7797B7FEC0F /* Pods-ciorba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65DE85401E1EE8DD0059AFA5 = {
+			isa = PBXGroup;
+			children = (
+				65DE854B1E1EE8DD0059AFA5 /* ciorba */,
+				65DE854A1E1EE8DD0059AFA5 /* Products */,
+				032C369EAE80E398B57F3D97 /* Pods */,
+				7EDDDAABFC3B278071AF8462 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65DE854A1E1EE8DD0059AFA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DE85491E1EE8DD0059AFA5 /* ciorba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DE854B1E1EE8DD0059AFA5 /* ciorba */ = {
+			isa = PBXGroup;
+			children = (
+				65DE854C1E1EE8DD0059AFA5 /* AppDelegate.swift */,
+				65DE854E1E1EE8DD0059AFA5 /* ViewController.swift */,
+				65DE85501E1EE8DD0059AFA5 /* Main.storyboard */,
+				65DE85531E1EE8DD0059AFA5 /* Assets.xcassets */,
+				65DE85551E1EE8DD0059AFA5 /* LaunchScreen.storyboard */,
+				65DE85581E1EE8DD0059AFA5 /* Info.plist */,
+			);
+			path = ciorba;
+			sourceTree = "<group>";
+		};
+		7EDDDAABFC3B278071AF8462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492D0B33C1D6DC10BF7D5D24 /* Pods_ciorba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DE85481E1EE8DD0059AFA5 /* ciorba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DE855B1E1EE8DD0059AFA5 /* Build configuration list for PBXNativeTarget "ciorba" */;
+			buildPhases = (
+				1803D65B5CB7B01887418C35 /* [CP] Check Pods Manifest.lock */,
+				65DE85451E1EE8DD0059AFA5 /* Sources */,
+				65DE85461E1EE8DD0059AFA5 /* Frameworks */,
+				65DE85471E1EE8DD0059AFA5 /* Resources */,
+				C2CE381F175D31745DBBA8D6 /* [CP] Embed Pods Frameworks */,
+				43E741081D6830134CE1973F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ciorba;
+			productName = ciorba;
+			productReference = 65DE85491E1EE8DD0059AFA5 /* ciorba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DE85411E1EE8DD0059AFA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ilie, Stefan";
+				TargetAttributes = {
+					65DE85481E1EE8DD0059AFA5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65DE85441E1EE8DD0059AFA5 /* Build configuration list for PBXProject "ciorba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DE85401E1EE8DD0059AFA5;
+			productRefGroup = 65DE854A1E1EE8DD0059AFA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DE85481E1EE8DD0059AFA5 /* ciorba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DE85471E1EE8DD0059AFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE85571E1EE8DD0059AFA5 /* LaunchScreen.storyboard in Resources */,
+				65DE85541E1EE8DD0059AFA5 /* Assets.xcassets in Resources */,
+				65DE85521E1EE8DD0059AFA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1803D65B5CB7B01887418C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43E741081D6830134CE1973F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ciorba/Pods-ciorba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CE381F175D31745DBBA8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ciorba/Pods-ciorba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DE85451E1EE8DD0059AFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE854F1E1EE8DD0059AFA5 /* ViewController.swift in Sources */,
+				65DE854D1E1EE8DD0059AFA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65DE85501E1EE8DD0059AFA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DE85511E1EE8DD0059AFA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65DE85551E1EE8DD0059AFA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DE85561E1EE8DD0059AFA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DE85591E1EE8DD0059AFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65DE855A1E1EE8DD0059AFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DE855C1E1EE8DD0059AFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44527BD273ACEE5646B6AAF /* Pods-ciorba.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ciorba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanilie.ciorba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65DE855D1E1EE8DD0059AFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AD4F845B15F7797B7FEC0F /* Pods-ciorba.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ciorba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefanilie.ciorba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DE85441E1EE8DD0059AFA5 /* Build configuration list for PBXProject "ciorba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE85591E1EE8DD0059AFA5 /* Debug */,
+				65DE855A1E1EE8DD0059AFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DE855B1E1EE8DD0059AFA5 /* Build configuration list for PBXNativeTarget "ciorba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE855C1E1EE8DD0059AFA5 /* Debug */,
+				65DE855D1E1EE8DD0059AFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65DE85411E1EE8DD0059AFA5 /* Project object */;
+}
