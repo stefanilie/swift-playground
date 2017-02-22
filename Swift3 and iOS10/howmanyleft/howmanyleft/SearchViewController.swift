@@ -1,31 +1,19 @@
 //
-//  StartViewController.swift
+//  SearchViewController.swift
 //  howmanyleft
 //
-//  Created by Ilie, Stefan on 2/21/17.
+//  Created by Ilie, Stefan on 2/22/17.
 //  Copyright © 2017 Ilie, Stefan. All rights reserved.
 //
 
 import UIKit
 
-class StartViewController: UIViewController {
+class SearchViewController: UIViewController {
 
     override func viewDidLoad() {
-        
-        self.view.backgroundColor = UIColor.white;
+        super.viewDidLoad()
+        self.view.backgroundColor=UIColor.blue;
         // Do any additional setup after loading the view.
-        let width = UIScreen.main.bounds.width;
-        let height = UIScreen.main.bounds.height;
-        let testButton = UIButton(frame: CGRect(x: 0, y: height*0.5, width: width-10, height: 20));
-        testButton.setTitle("Ciorba", for: .normal)
-        testButton.setTitleColor(UIColor.red, for: .normal)
-        testButton.setTitleShadowColor(UIColor.blue, for: .selected)
-        if testButton.isTouchInside{
-            
-        }
-        
-        self.view.addSubview(testButton);
-        
     }
 
     override func didReceiveMemoryWarning() {

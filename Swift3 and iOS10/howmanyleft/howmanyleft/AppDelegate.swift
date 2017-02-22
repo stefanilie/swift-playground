@@ -11,22 +11,21 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var Window: UIWindow?
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        //Create a new window instance to the dimentions of the screen size
+    var window: UIWindow?
 
-        self.Window = UIWindow(frame: UIScreen.main.bounds);
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        if let window = self.Window{
-            //Setting up the root view controller, which is the nav controller
-            window.rootViewController = MyNavigationController.instance;
-            
-            //Making the view visible
-            window.makeKeyAndVisible()
-        }
+        self.window = UIWindow(frame: UIScreen.main.bounds);
         
-        return true;
+        let controller = StartViewController();
+        
+        let navController = UINavigationController(rootViewController: controller);
+        
+        window?.rootViewController = navController;
+        
+        self.window?.makeKeyAndVisible();
+    
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
