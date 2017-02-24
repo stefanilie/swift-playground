@@ -20,14 +20,19 @@ class StartViewController: UIViewController {
         testButton.setTitle("Ciorba", for: .normal)
         testButton.setTitleColor(UIColor.red, for: .normal)
         testButton.setTitleShadowColor(UIColor.blue, for: .selected)
-        if testButton.isTouchInside{
-            
-        }
+        
+        testButton.addTarget(self, action: #selector(changeView(sender:)), for: .touchUpInside);
         
         self.view.addSubview(testButton);
         
     }
 
+    
+    func changeView(sender: UIButton){
+        let secondController = SearchViewController();
+        self.navigationController?.pushViewController(secondController, animated: true);
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
